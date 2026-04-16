@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "motion/react";
-import { Wrench, Hammer, Zap, Paintbrush, Building, Compass, type LucideIcon } from "lucide-react";
+import { Compass, HardHat, Building, ClipboardList, Shield, Search, type LucideIcon } from "lucide-react";
 import { siteContent } from "@/config/site-content";
 import { ScrollReveal, ScrollRevealItem } from "@/components/animations/ScrollReveal";
 import { SplitText } from "@/components/animations/SplitText";
 import { easings } from "@/lib/easings";
 
 const iconMap: Record<string, LucideIcon> = {
-  Wrench,
-  Hammer,
-  Zap,
-  Paintbrush,
-  Building,
   Compass,
+  HardHat,
+  Building,
+  ClipboardList,
+  Shield,
+  Search,
 };
 
 export function Services() {
@@ -25,7 +25,7 @@ export function Services() {
         {/* Header */}
         <div className="mb-16 lg:mb-20">
           <ScrollReveal>
-            <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest mb-4 block">
+            <span className="font-body text-caption text-studio-500 uppercase tracking-widest mb-4 block">
               Servicios
             </span>
           </ScrollReveal>
@@ -45,7 +45,7 @@ export function Services() {
         <ScrollReveal stagger staggerDelay={0.08}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {services.items.map((service) => {
-              const Icon = iconMap[service.icon] || Wrench;
+              const Icon = iconMap[service.icon] || Compass;
               return (
                 <ScrollRevealItem key={service.title}>
                   <motion.div
@@ -53,8 +53,8 @@ export function Services() {
                     whileHover={{ y: -4 }}
                     transition={{ duration: 0.3, ease: easings.smooth }}
                   >
-                    <div className="w-12 h-12 rounded-sm bg-terracotta-50 flex items-center justify-center mb-6 group-hover:bg-terracotta-100 transition-colors duration-300">
-                      <Icon className="w-6 h-6 text-terracotta-500" />
+                    <div className="w-12 h-12 rounded-sm bg-studio-50 flex items-center justify-center mb-6 group-hover:bg-studio-100 transition-colors duration-300">
+                      <Icon className="w-6 h-6 text-studio-500" />
                     </div>
                     <h3 className="font-display text-xl font-semibold text-stone-900 mb-3">
                       {service.title}

@@ -48,10 +48,10 @@ export function Header() {
           {/* Logo */}
           <button
             onClick={() => lenis?.scrollTo(0, { duration: 1.5 })}
-            className="font-display text-xl font-bold tracking-tight cursor-pointer"
+            className="font-display text-2xl font-bold tracking-tight cursor-pointer"
           >
-            <span className={isScrolled ? "text-stone-900" : "text-white"}>
-              {siteContent.company.name}
+            <span className={`transition-colors duration-300 ${isScrolled ? "text-stone-900" : "text-white"}`}>
+              RMA
             </span>
           </button>
 

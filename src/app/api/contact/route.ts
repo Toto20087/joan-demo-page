@@ -50,8 +50,8 @@ export async function POST(request: NextRequest) {
     // import { Resend } from 'resend';
     // const resend = new Resend(process.env.RESEND_API_KEY);
     // await resend.emails.send({
-    //   from: 'RAME Studio <noreply@ramestudio.com.ar>',
-    //   to: 'contacto@ramestudio.com.ar',
+    //   from: 'RMA Estudio <noreply@rmaestudio.com.ar>',
+    //   to: 'info@rmaestudio.com.ar',
     //   subject: `Nueva solicitud de presupuesto: ${service}`,
     //   html: `<p><strong>Nombre:</strong> ${name}</p>
     //          <p><strong>Email:</strong> ${email}</p>

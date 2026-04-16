@@ -31,7 +31,7 @@ export function Projects() {
         {/* Header */}
         <div className="mb-16 lg:mb-20">
           <ScrollReveal>
-            <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest mb-4 block">
+            <span className="font-body text-caption text-studio-500 uppercase tracking-widest mb-4 block">
               Portfolio
             </span>
           </ScrollReveal>
@@ -64,7 +64,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[0].category}
                 </span>
                 <span className="font-display text-xl text-white">
@@ -88,7 +88,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[1].category}
                 </span>
                 <span className="font-display text-xl text-white">
@@ -113,7 +113,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[2].category}
                 </span>
                 <span className="font-display text-xl text-white">
@@ -137,7 +137,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[3].category}
                 </span>
                 <span className="font-display text-xl text-white">
@@ -162,7 +162,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[4].category}
                 </span>
                 <span className="font-display text-xl text-white">
@@ -186,7 +186,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/20 transition-all duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-stone-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="font-body text-caption text-terracotta-300 block mb-1">
+                <span className="font-body text-caption text-studio-300 block mb-1">
                   {projects.items[5].category}
                 </span>
                 <span className="font-display text-xl text-white">

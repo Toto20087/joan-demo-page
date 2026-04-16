@@ -42,7 +42,7 @@ export function Preloader() {
           }}
         >
           <motion.span
-            className="font-display text-display-sm text-[#FAF8F5] tracking-wide mb-8"
+            className="font-display text-display-sm text-[#F8F9FB] tracking-wide mb-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.5 }}
@@ -52,7 +52,7 @@ export function Preloader() {
 
           <div className="w-48 h-[1px] bg-stone-800 relative overflow-hidden">
             <motion.div
-              className="absolute inset-y-0 left-0 bg-terracotta-400"
+              className="absolute inset-y-0 left-0 bg-studio-400"
               initial={{ width: "0%" }}
               animate={{ width: `${Math.min(progress, 100)}%` }}
               transition={{ ease: "easeOut" }}

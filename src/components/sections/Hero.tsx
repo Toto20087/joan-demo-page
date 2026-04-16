@@ -58,7 +58,7 @@ export function Hero() {
               <button
                 onClick={() => lenis?.scrollTo("#contacto", { offset: -80, duration: 1.5 })}
                 data-cursor="Ver"
-                className="bg-terracotta-400 hover:bg-terracotta-600 text-white font-body font-medium px-8 py-4 rounded-sm transition-colors duration-300 cursor-pointer"
+                className="bg-studio-400 hover:bg-studio-600 text-white font-body font-medium px-8 py-4 rounded-sm transition-colors duration-300 cursor-pointer"
               >
                 {hero.cta}
               </button>

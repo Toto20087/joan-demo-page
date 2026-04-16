@@ -12,7 +12,7 @@
   }
 
   ::selection {
-    @apply bg-terracotta-400/20 text-stone-900;
+    @apply bg-studio-400/20 text-stone-900;
   }
 }
 
@@ -45,6 +45,6 @@ html.lenis body {
 /* Focus styles */
 @layer base {
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-terracotta-400;
+    @apply outline-2 outline-offset-2 outline-studio-400;
   }
 }

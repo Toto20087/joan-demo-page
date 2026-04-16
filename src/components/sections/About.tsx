@@ -3,7 +3,6 @@
 import { siteContent } from "@/config/site-content";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { SplitText } from "@/components/animations/SplitText";
-import { ImageReveal } from "@/components/animations/ImageReveal";
 
 export function About() {
   const { about, company } = siteContent;
@@ -14,7 +13,7 @@ export function About() {
         {/* Top row: Label + Heading */}
         <div className="grid grid-cols-12 gap-6 mb-16 lg:mb-24">
           <ScrollReveal className="col-span-12 lg:col-span-3">
-            <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest">
+            <span className="font-body text-caption text-studio-500 uppercase tracking-widest">
               Sobre nosotros
             </span>
           </ScrollReveal>
@@ -27,33 +26,27 @@ export function About() {
           </div>
         </div>
 
-        {/* Middle row: Image + Description */}
+        {/* Description + Quote — editorial layout sin imagen */}
         <div className="grid grid-cols-12 gap-6 lg:gap-12 mb-16 lg:mb-24">
-          <ScrollReveal className="col-span-12 lg:col-span-5">
-            <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-              <ImageReveal
-                src={about.founderImage}
-                alt={`${company.founderName} — ${company.founderTitle}`}
-                className="w-full h-full"
-                sizes="(max-width: 1024px) 100vw, 42vw"
-              />
-            </div>
-          </ScrollReveal>
-
-          <div className="col-span-12 lg:col-span-6 lg:col-start-7 flex flex-col justify-center">
-            <ScrollReveal delay={0.2}>
-              <p className="font-body text-body-lg text-stone-500 leading-relaxed mb-8">
+          <div className="col-span-12 lg:col-span-6">
+            <ScrollReveal>
+              <p className="font-body text-body-lg text-stone-500 leading-relaxed">
                 {about.description}
               </p>
             </ScrollReveal>
+          </div>
 
-            <ScrollReveal delay={0.3}>
-              <div className="border-t border-terracotta-200 pt-6">
-                <blockquote className="font-display text-display-sm text-terracotta-500 italic">
+          <div className="col-span-12 lg:col-span-5 lg:col-start-8 flex flex-col justify-center">
+            <ScrollReveal delay={0.2}>
+              <div className="border-l-2 border-studio-400 pl-8">
+                <blockquote className="font-display text-display-sm text-studio-500 italic mb-4">
                   &ldquo;{about.quote}&rdquo;
                 </blockquote>
-                <p className="font-body text-body-sm text-stone-400 mt-3">
-                  {company.founderName} — {company.founderTitle}
+                <p className="font-body text-body-sm text-stone-400">
+                  {company.founderName}
+                </p>
+                <p className="font-body text-body-sm text-studio-400">
+                  {company.founderTitle}
                 </p>
               </div>
             </ScrollReveal>

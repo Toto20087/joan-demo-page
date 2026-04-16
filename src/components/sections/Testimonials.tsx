@@ -13,7 +13,7 @@ export function Testimonials() {
         {/* Header */}
         <div className="text-center mb-16 lg:mb-20">
           <ScrollReveal>
-            <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest mb-4 block">
+            <span className="font-body text-caption text-studio-500 uppercase tracking-widest mb-4 block">
               Testimonios
             </span>
           </ScrollReveal>
@@ -32,7 +32,7 @@ export function Testimonials() {
                 <div className="relative p-8 bg-cream rounded-sm">
                   {/* Decorative quote */}
                   <span
-                    className="absolute top-4 left-6 font-display text-[5rem] leading-none text-terracotta-200 select-none pointer-events-none"
+                    className="absolute top-4 left-6 font-display text-[5rem] leading-none text-studio-200 select-none pointer-events-none"
                     aria-hidden="true"
                   >
                     &ldquo;

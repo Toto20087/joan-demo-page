@@ -25,7 +25,7 @@ export function Process() {
         {/* Header */}
         <div className="text-center mb-16 lg:mb-20">
           <ScrollReveal>
-            <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest mb-4 block">
+            <span className="font-body text-caption text-studio-500 uppercase tracking-widest mb-4 block">
               Proceso
             </span>
           </ScrollReveal>
@@ -46,7 +46,7 @@ export function Process() {
           {/* Line track — vertically centered on the circles (h-16 = 4rem, center = 2rem = top-8) */}
           <div className="absolute top-8 left-0 right-0 h-[1px] bg-stone-300 z-0">
             <motion.div
-              className="absolute inset-y-0 left-0 bg-terracotta-400"
+              className="absolute inset-y-0 left-0 bg-studio-400"
               style={shouldReduceMotion ? { width: "100%" } : { width: lineWidth }}
             />
           </div>
@@ -67,8 +67,8 @@ export function Process() {
               >
                 {/* Circle */}
                 <div className="flex justify-center mb-6">
-                  <div className="w-16 h-16 rounded-full bg-cream border-2 border-terracotta-400 flex items-center justify-center">
-                    <span className="font-display text-lg font-bold text-terracotta-500">
+                  <div className="w-16 h-16 rounded-full bg-cream border-2 border-studio-400 flex items-center justify-center">
+                    <span className="font-display text-lg font-bold text-studio-500">
                       {step.number}
                     </span>
                   </div>
@@ -90,7 +90,7 @@ export function Process() {
           {/* Vertical line */}
           <div className="absolute left-5 top-0 bottom-0 w-[1px] bg-stone-300">
             <motion.div
-              className="absolute inset-x-0 top-0 bg-terracotta-400"
+              className="absolute inset-x-0 top-0 bg-studio-400"
               style={shouldReduceMotion ? { height: "100%" } : { height: lineWidth }}
             />
           </div>
@@ -101,8 +101,8 @@ export function Process() {
                 <div className="relative">
                   {/* Circle */}
                   <div className="absolute -left-12 top-0">
-                    <div className="w-10 h-10 rounded-full bg-cream border-2 border-terracotta-400 flex items-center justify-center">
-                      <span className="font-display text-sm font-bold text-terracotta-500">
+                    <div className="w-10 h-10 rounded-full bg-cream border-2 border-studio-400 flex items-center justify-center">
+                      <span className="font-display text-sm font-bold text-studio-500">
                         {step.number}
                       </span>
                     </div>

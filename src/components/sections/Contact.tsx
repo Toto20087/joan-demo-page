@@ -50,7 +50,7 @@ export function Contact() {
           {/* Left: Info */}
           <div className="col-span-12 lg:col-span-5">
             <ScrollReveal>
-              <span className="font-body text-caption text-terracotta-500 uppercase tracking-widest mb-4 block">
+              <span className="font-body text-caption text-studio-500 uppercase tracking-widest mb-4 block">
                 Contacto
               </span>
             </ScrollReveal>
@@ -69,20 +69,20 @@ export function Contact() {
               <div className="space-y-4">
                 <a
                   href={`mailto:${company.email}`}
-                  className="flex items-center gap-3 font-body text-body-md text-stone-600 hover:text-terracotta-500 transition-colors cursor-pointer"
+                  className="flex items-center gap-3 font-body text-body-md text-stone-600 hover:text-studio-500 transition-colors cursor-pointer"
                 >
-                  <Mail className="w-5 h-5 text-terracotta-400" />
+                  <Mail className="w-5 h-5 text-studio-400" />
                   {company.email}
                 </a>
                 <a
                   href={`tel:${company.phone.replace(/\s/g, "")}`}
-                  className="flex items-center gap-3 font-body text-body-md text-stone-600 hover:text-terracotta-500 transition-colors cursor-pointer"
+                  className="flex items-center gap-3 font-body text-body-md text-stone-600 hover:text-studio-500 transition-colors cursor-pointer"
                 >
-                  <Phone className="w-5 h-5 text-terracotta-400" />
+                  <Phone className="w-5 h-5 text-studio-400" />
                   {company.phone}
                 </a>
                 <div className="flex items-center gap-3 font-body text-body-md text-stone-600">
-                  <MapPin className="w-5 h-5 text-terracotta-400" />
+                  <MapPin className="w-5 h-5 text-studio-400" />
                   {company.address}
                 </div>
               </div>
@@ -102,7 +102,7 @@ export function Contact() {
                     name="name"
                     type="text"
                     required
-                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400 transition-colors"
+                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-studio-400 transition-colors"
                     placeholder="Tu nombre"
                   />
                 </div>
@@ -115,7 +115,7 @@ export function Contact() {
                     name="email"
                     type="email"
                     required
-                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400 transition-colors"
+                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-studio-400 transition-colors"
                     placeholder="tu@email.com"
                   />
                 </div>
@@ -131,7 +131,7 @@ export function Contact() {
                     name="phone"
                     type="tel"
                     required
-                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400 transition-colors"
+                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-studio-400 transition-colors"
                     placeholder="+54 11 XXXX-XXXX"
                   />
                 </div>
@@ -143,7 +143,7 @@ export function Contact() {
                     id="service"
                     name="service"
                     required
-                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 focus:outline-none focus:border-terracotta-400 transition-colors cursor-pointer appearance-none"
+                    className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 focus:outline-none focus:border-studio-400 transition-colors cursor-pointer appearance-none"
                   >
                     <option value="">Seleccioná un servicio</option>
                     {services.items.map((service) => (
@@ -165,7 +165,7 @@ export function Contact() {
                   required
                   rows={5}
                   minLength={20}
-                  className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400 transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-white border border-stone-200 rounded-sm font-body text-body-md text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-studio-400 transition-colors resize-none"
                   placeholder="Describí brevemente qué necesitás..."
                 />
               </div>
@@ -174,7 +174,7 @@ export function Contact() {
                 type="submit"
                 disabled={formState === "submitting"}
                 data-cursor="Enviar"
-                className="w-full md:w-auto bg-terracotta-400 hover:bg-terracotta-600 disabled:bg-stone-300 text-white font-body font-medium px-10 py-4 rounded-sm transition-colors duration-300 cursor-pointer"
+                className="w-full md:w-auto bg-studio-400 hover:bg-studio-600 disabled:bg-stone-300 text-white font-body font-medium px-10 py-4 rounded-sm transition-colors duration-300 cursor-pointer"
               >
                 {formState === "submitting" ? "Enviando..." : "Enviar solicitud"}
               </button>

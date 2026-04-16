@@ -1,5 +1,5 @@
 // ============================================================
-// CONFIGURACIÓN DEL SITIO — RAME Studio
+// CONFIGURACIÓN DEL SITIO — RMA Estudio
 // ============================================================
 // Este archivo contiene TODO el contenido del sitio web.
 // Para cambiar textos, imágenes o datos, editá este archivo.
@@ -16,68 +16,68 @@
 export const siteContent = {
   // --- DATOS DE LA EMPRESA ---
   company: {
-    name: "RAME Studio",
-    tagline: "Mantenimiento integral para tu local comercial",
-    founderName: "Nombre del Arquitecto",
-    founderTitle: "Arquitecto matriculado",
-    phone: "+54 11 XXXX-XXXX",
-    email: "contacto@ramestudio.com.ar",
-    whatsapp: "5411XXXXXXXX",
-    address: "Buenos Aires, Argentina",
-    instagram: "https://instagram.com/ramestudio",
-    linkedin: "https://linkedin.com/company/ramestudio",
-    facebook: "https://facebook.com/ramestudio",
+    name: "RMA Estudio",
+    tagline: "Arquitectura, construcción y dirección de obra para el sector corporativo, industrial y comercial",
+    founderName: "Arq. Francisco Rodríguez Moyano",
+    founderTitle: "Arquitecto — Fundador",
+    phone: "+54 11 6738 5272",
+    email: "info@rmaestudio.com.ar",
+    whatsapp: "541167385272",
+    address: "Avda Del Libertador 2495 12°A, Olivos, Buenos Aires",
+    instagram: "https://instagram.com/rmaestudio",
+    linkedin: "https://linkedin.com/company/rmaestudio",
+    facebook: "https://facebook.com/rmaestudio",
   },
 
   // --- HERO ---
   hero: {
-    title: "Transformamos espacios comerciales",
+    title: "Arquitectura con visión estratégica",
     subtitle:
-      "Mantenimiento, refacciones y obras menores con visión de arquitecto",
-    cta: "Solicitá tu presupuesto",
+      "Diseño, construcción y dirección de obra para proyectos corporativos, industriales y comerciales",
+    cta: "Consultá tu proyecto",
     backgroundImage: "/images/hero.jpg",
   },
 
   // --- SERVICIOS ---
   services: {
     heading: "Nuestros servicios",
-    subtitle: "Soluciones integrales para tu espacio comercial",
+    subtitle: "Soluciones integrales de arquitectura, construcción y gestión de obra",
     items: [
       {
-        title: "Mantenimiento preventivo",
+        title: "Proyecto de arquitectura",
         description:
-          "Programas de mantenimiento periódico para prevenir problemas y mantener tu local en óptimas condiciones.",
-        icon: "Wrench" as const,
+          "Diseño integral de proyectos corporativos, industriales y comerciales con foco en funcionalidad, normativa y estética.",
+        icon: "Compass" as const,
       },
       {
-        title: "Refacciones y remodelaciones",
+        title: "Dirección de obra",
         description:
-          "Renovamos tu espacio comercial adaptándolo a las nuevas necesidades de tu negocio.",
-        icon: "Hammer" as const,
+          "Supervisión y coordinación de la ejecución en obra, asegurando plazos, calidad y cumplimiento de proyecto.",
+        icon: "HardHat" as const,
       },
       {
-        title: "Instalaciones eléctricas y sanitarias",
+        title: "Construcción llave en mano",
         description:
-          "Instalación y reparación de sistemas eléctricos y sanitarios con profesionales matriculados.",
-        icon: "Zap" as const,
-      },
-      {
-        title: "Pintura y terminaciones",
-        description:
-          "Terminaciones de primera calidad que transforman la imagen de tu local.",
-        icon: "Paintbrush" as const,
-      },
-      {
-        title: "Obras menores y ampliaciones",
-        description:
-          "Ampliaciones, entrepisos y obras menores con dirección técnica de arquitecto.",
+          "Ejecución completa de la obra desde la estructura hasta las terminaciones, con gestión unificada.",
         icon: "Building" as const,
       },
       {
-        title: "Consultoría de proyecto",
+        title: "Project management",
         description:
-          "Asesoramiento profesional para optimizar tu espacio comercial con visión arquitectónica.",
-        icon: "Compass" as const,
+          "Planificación, control de costos y coordinación de equipos para llevar cada proyecto a término con eficiencia.",
+        icon: "ClipboardList" as const,
+      },
+      {
+        title: "Representación técnica",
+        description:
+          "Representante técnico, técnico en seguridad e higiene y coordinador de tareas dedicado a cada obra.",
+        icon: "Shield" as const,
+      },
+      {
+        title: "Consultoría y factibilidad",
+        description:
+          "Estudios de prefactibilidad, análisis normativo y asesoramiento estratégico para la toma de decisiones.",
+        icon: "Search" as const,
       },
     ],
   },
@@ -85,53 +85,53 @@ export const siteContent = {
   // --- PROYECTOS / PORTFOLIO ---
   projects: {
     heading: "Proyectos",
-    subtitle: "Espacios que transformamos",
+    subtitle: "Obras ejecutadas en el sector corporativo, industrial y comercial",
     items: [
       {
-        title: "Local Palermo Soho",
-        category: "Remodelación",
+        title: "Nave Industrial Pilar",
+        category: "Industrial",
         description:
-          "Remodelación integral de local gastronómico de 120m² en Palermo Soho.",
+          "Diseño y construcción de nave industrial de 2.500m² con oficinas administrativas en Parque Industrial Pilar.",
         image: "/images/projects/local-palermo.jpg",
         year: "2025",
       },
       {
-        title: "Oficina Microcentro",
-        category: "Mantenimiento",
+        title: "Oficinas Corporativas Catalinas",
+        category: "Corporativo",
         description:
-          "Programa de mantenimiento preventivo para oficina corporativa de 300m².",
+          "Remodelación integral de planta de oficinas de 800m² para empresa multinacional en Catalinas Norte.",
         image: "/images/projects/oficina-microcentro.jpg",
         year: "2025",
       },
       {
-        title: "Restaurante San Telmo",
-        category: "Obra menor",
+        title: "Centro Logístico Ezeiza",
+        category: "Industrial",
         description:
-          "Ampliación de terraza y renovación de fachada para restaurante histórico.",
+          "Ampliación y acondicionamiento de centro de distribución de 5.000m² con sistema de carga y descarga.",
         image: "/images/projects/restaurante-san-telmo.jpg",
         year: "2024",
       },
       {
-        title: "Showroom Belgrano",
-        category: "Remodelación",
+        title: "Sucursal Bancaria Microcentro",
+        category: "Comercial",
         description:
-          "Diseño y ejecución de showroom de 80m² para marca de moda.",
+          "Diseño y ejecución de sucursal bancaria de 350m² con área de atención al público y oficinas privadas.",
         image: "/images/projects/showroom-belgrano.jpg",
         year: "2024",
       },
       {
-        title: "Café Recoleta",
-        category: "Refacción",
+        title: "Planta Farmacéutica Pacheco",
+        category: "Industrial",
         description:
-          "Refacción completa de cafetería incluyendo instalaciones sanitarias y eléctricas.",
+          "Construcción de planta de producción con salas limpias y laboratorio bajo normativas GMP.",
         image: "/images/projects/cafe-recoleta.jpg",
         year: "2024",
       },
       {
-        title: "Coworking Palermo Hollywood",
-        category: "Obra menor",
+        title: "Hotel Boutique San Isidro",
+        category: "Comercial",
         description:
-          "Construcción de entrepiso y acondicionamiento de espacio de coworking.",
+          "Proyecto completo y dirección de obra para hotel boutique de 24 habitaciones con restaurante.",
         image: "/images/projects/coworking-palermo.jpg",
         year: "2025",
       },
@@ -140,25 +140,26 @@ export const siteContent = {
 
   // --- SOBRE NOSOTROS ---
   about: {
-    heading: "Dirigidos por un arquitecto, ejecutados con oficio",
+    heading: "Transparencia, compromiso y efectividad en cada proyecto",
     description:
-      "Somos una empresa de mantenimiento y obras menores que combina la visión estratégica de la arquitectura con la ejecución precisa del oficio. Cada proyecto recibe atención de un profesional matriculado que entiende no solo cómo reparar, sino cómo mejorar.",
-    quote: "No solo reparamos espacios, los mejoramos.",
+      "RMA Estudio nace de la convicción de que la arquitectura corporativa e industrial requiere un enfoque integral. Combinamos diseño de calidad con gestión profesional de obra, garantizando que cada proyecto se ejecute en plazo, en presupuesto y con los estándares más altos. Nuestro equipo incluye representante técnico, técnico en seguridad e higiene y coordinador de tareas dedicado.",
+    quote: "Construimos confianza a través de resultados.",
     founderImage: "/images/about/founder.jpg",
     values: [
       {
-        title: "Visión profesional",
+        title: "Personas",
         description:
-          "Cada intervención está respaldada por criterio arquitectónico.",
+          "Profesionales especializados en cada disciplina, comprometidos con la excelencia técnica en todas las etapas.",
       },
       {
-        title: "Cumplimiento",
+        title: "Tecnología",
         description:
-          "Plazos claros, presupuestos respetados, sin sorpresas.",
+          "Herramientas y metodologías de gestión actualizadas para optimizar plazos, costos y calidad.",
       },
       {
-        title: "Calidad",
-        description: "Materiales de primera y mano de obra especializada.",
+        title: "Clientes",
+        description:
+          "Comunicación fluida y alineación total con los objetivos de cada cliente, asegurando resultados a medida.",
       },
     ],
   },
@@ -166,34 +167,34 @@ export const siteContent = {
   // --- PROCESO DE TRABAJO ---
   process: {
     heading: "Cómo trabajamos",
-    subtitle: "Un proceso claro de principio a fin",
+    subtitle: "Un proceso profesional de principio a fin",
     steps: [
       {
         number: "01",
-        title: "Consulta inicial",
-        description: "Nos contactás y nos contás qué necesitás. Sin compromiso.",
+        title: "Consulta y factibilidad",
+        description: "Analizamos tu necesidad, evaluamos el sitio y la normativa aplicable.",
       },
       {
         number: "02",
-        title: "Relevamiento",
+        title: "Anteproyecto",
         description:
-          "Visitamos tu local para evaluar el trabajo y tomar medidas.",
+          "Desarrollamos la propuesta de diseño con plantas, renders y estimación de inversión.",
       },
       {
         number: "03",
-        title: "Presupuesto",
+        title: "Proyecto ejecutivo",
         description:
-          "Te enviamos un presupuesto detallado con plazos y costos.",
+          "Documentación técnica completa: planos, pliegos, cómputo y presupuesto detallado.",
       },
       {
         number: "04",
-        title: "Ejecución",
-        description: "Realizamos el trabajo con supervisión de arquitecto.",
+        title: "Ejecución de obra",
+        description: "Construcción con supervisión permanente, control de calidad y reportes de avance.",
       },
       {
         number: "05",
-        title: "Entrega",
-        description: "Entregamos el trabajo terminado con garantía de calidad.",
+        title: "Entrega y postventa",
+        description: "Entrega formal con documentación as-built y acompañamiento postventa.",
       },
     ],
   },
@@ -203,30 +204,30 @@ export const siteContent = {
     heading: "Lo que dicen nuestros clientes",
     items: [
       {
-        text: "Excelente trabajo en la remodelación de nuestro local. Cumplieron con los plazos y el resultado superó nuestras expectativas.",
-        author: "María González",
-        role: "Dueña de boutique, Palermo",
+        text: "RMA Estudio gestionó la construcción de nuestra nave industrial con total profesionalismo. Cumplieron cada hito del cronograma y la calidad de terminaciones fue impecable.",
+        author: "Ing. Martín Aráoz",
+        role: "Director de Operaciones, empresa industrial",
       },
       {
-        text: "El mantenimiento preventivo nos ahorró muchos dolores de cabeza. Muy profesionales y siempre disponibles.",
-        author: "Carlos Méndez",
-        role: "Gerente de oficina, Microcentro",
+        text: "La dirección de obra fue clave para que nuestro proyecto se mantuviera dentro del presupuesto. Su equipo técnico es de primer nivel.",
+        author: "Lic. Carolina Vidal",
+        role: "Gerente de Facilities, empresa multinacional",
       },
       {
-        text: "La diferencia de trabajar con un equipo dirigido por un arquitecto se nota. Propusieron soluciones que no habíamos considerado.",
-        author: "Laura Fernández",
-        role: "Propietaria de restaurante, San Telmo",
+        text: "Desde el diseño hasta la entrega, el proceso fue transparente y predecible. Se nota que están acostumbrados a trabajar con corporaciones.",
+        author: "Arq. Patricio Solano",
+        role: "Desarrollador inmobiliario",
       },
     ],
   },
 
   // --- CONTACTO ---
   contact: {
-    heading: "Solicitá tu presupuesto",
+    heading: "Contactanos",
     subtitle:
       "Contanos sobre tu proyecto y te respondemos en menos de 24 horas.",
     successMessage:
-      "¡Gracias! Recibimos tu solicitud. Nos comunicaremos en menos de 24 horas.",
+      "¡Gracias! Recibimos tu consulta. Nos comunicaremos en menos de 24 horas.",
     errorMessage:
       "Hubo un error al enviar. Intentá de nuevo o contactanos por WhatsApp.",
   },
@@ -238,16 +239,16 @@ export const siteContent = {
 
   // --- WHATSAPP CTA ---
   whatsappMessage:
-    "Hola, me contacto desde la web de RAME Studio. Me interesa solicitar un presupuesto.",
+    "Hola, me contacto desde la web de RMA Estudio. Me interesa consultar sobre un proyecto.",
 
   // --- SEO / METADATA ---
   seo: {
     title:
-      "RAME Studio | Mantenimiento de Locales Comerciales en Buenos Aires",
+      "RMA Estudio | Arquitectura, Construcción y Dirección de Obra",
     description:
-      "Mantenimiento integral, refacciones y obras menores para locales comerciales en Buenos Aires. Dirigidos por un arquitecto matriculado.",
+      "Estudio de arquitectura especializado en proyectos corporativos, industriales y comerciales. Diseño, construcción y project management con alcance nacional.",
     ogImage: "/images/og-image.jpg",
-    url: "https://ramestudio.com.ar",
+    url: "https://rmaestudio.com.ar",
     locale: "es_AR",
   },
 } as const;

@@ -35,7 +35,7 @@ export function Footer() {
                 href={company.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-terracotta-400 hover:text-terracotta-400 transition-colors cursor-pointer"
+                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-studio-400 hover:text-studio-400 transition-colors cursor-pointer"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
@@ -44,7 +44,7 @@ export function Footer() {
                 href={company.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-terracotta-400 hover:text-terracotta-400 transition-colors cursor-pointer"
+                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-studio-400 hover:text-studio-400 transition-colors cursor-pointer"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
@@ -53,7 +53,7 @@ export function Footer() {
                 href={company.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-terracotta-400 hover:text-terracotta-400 transition-colors cursor-pointer"
+                className="w-10 h-10 rounded-full border border-stone-700 flex items-center justify-center hover:border-studio-400 hover:text-studio-400 transition-colors cursor-pointer"
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4" />
@@ -108,7 +108,7 @@ export function Footer() {
             <p className="font-body text-body-sm text-stone-400">
               {company.founderName}
             </p>
-            <p className="font-body text-body-sm text-terracotta-400">
+            <p className="font-body text-body-sm text-studio-400">
               {company.founderTitle}
             </p>
           </div>
