@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useLenis } from "lenis/react";
 import { Menu, X } from "lucide-react";
-import { siteContent } from "@/config/site-content";
 import { easings } from "@/lib/easings";
 
 const navLinks = [
